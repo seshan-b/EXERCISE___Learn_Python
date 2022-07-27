@@ -20,10 +20,13 @@ tip_as_percent = tip / 100
 total_tip_amount = bill * tip_as_percent
 total_bill = bill + total_tip_amount
 
+# Round
 bill_per_person = total_bill / people
 
+# Format output
 final_amount = round(bill_per_person)
-
 final_amount = "{:.2f}".format(bill_per_person)
 
+
+# Print
 print(f"Your bill is ${final_amount}")
