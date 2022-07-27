@@ -7,5 +7,6 @@ first_name = user_input.split()[0]
 last_name = user_input.split()[1]
 
 
+
 # print
 print(f"My name is {first_name.title()} {last_name.title()}")
