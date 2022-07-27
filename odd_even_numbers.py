@@ -10,6 +10,7 @@ number = number_input
 # Do calculation 
 mod_number =  number % 2
 
+
 # Check and output number.
 if (mod_number >= 1) :
     print("This is an odd number.")
