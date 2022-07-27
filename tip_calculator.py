@@ -10,10 +10,9 @@
 # Print heading
 print("Print Calculator")
 
+# Get user input. We can also cast user input to int or float
 bill = float(input("What was the total bill? $"))
-
 tip = int(input("How much would you like to tip 10, 12, 15? "))
-
 people = int(input("How many people would you split it with"))
 
 tip_as_percent = tip / 100
