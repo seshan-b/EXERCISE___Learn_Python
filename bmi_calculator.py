@@ -11,5 +11,6 @@ weight = int(input_weight)
 # Calculate
 bmi = weight / height ** 2
 
+
 # Print
 print(f" Your BMI is {str(round(bmi))}")
