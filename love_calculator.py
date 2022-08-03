@@ -9,3 +9,4 @@ lowercase_combined_string = combine_string.lower()
 
 t = lowercase_combined_string.count("t")
 r = lowercase_combined_string.count("r")
+u = lowercase_combined_string.count("u")
