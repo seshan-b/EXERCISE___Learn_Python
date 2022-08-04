@@ -24,4 +24,4 @@ love = l + o + v + e
 
 love_score = int(str(true) + str(love))
 
-#print(str(love_score))
+# print(str(love_score)) // Testing
