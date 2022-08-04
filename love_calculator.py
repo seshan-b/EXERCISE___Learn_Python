@@ -25,3 +25,10 @@ love = l + o + v + e
 love_score = int(str(true) + str(love))
 
 # print(str(love_score)) // Testing
+
+
+if (love_score < 10) or (love_score > 90):
+
+elif (love_score >= 40) and (love_score >= 50):
+
+else: 
