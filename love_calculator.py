@@ -15,3 +15,4 @@ e = lowercase_combined_string.count("e")
 true = t + r + u + e
 
 l = lowercase_combined_string.count("l")
+o = lowercase_combined_string.count("o")
