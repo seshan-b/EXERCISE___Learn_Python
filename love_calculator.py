@@ -20,3 +20,5 @@ v = lowercase_combined_string.count("v")
 e = lowercase_combined_string.count("e")
 
 love = l + o + v + e
+
+love_score = int(str(true) + str(love))
