@@ -11,3 +11,5 @@ t = lowercase_combined_string.count("t")
 r = lowercase_combined_string.count("r")
 u = lowercase_combined_string.count("u")
 e = lowercase_combined_string.count("e")
+
+true = t + r + u + e
