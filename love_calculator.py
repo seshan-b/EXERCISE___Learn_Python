@@ -17,3 +17,4 @@ true = t + r + u + e
 l = lowercase_combined_string.count("l")
 o = lowercase_combined_string.count("o")
 v = lowercase_combined_string.count("v")
+e = lowercase_combined_string.count("e")
