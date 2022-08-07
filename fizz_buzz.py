@@ -8,3 +8,4 @@ for number in range(0, 101):
     elif number % 5 == 0:
          print("Buzz")         
     else:
+         print(number)    
