@@ -1,5 +1,6 @@
 
 
+# Get Student Scores
 student_scores = input("Input a list of student scores ").split()
 
 for n in range(0, len(student_scores)):
