@@ -11,3 +11,5 @@ print(student_scores)
 # A simple way to write this code above.
 # max_score = max(student_scores)
 # print(f"The highest score in the class is: {max_score}")
+
+highest_score = 0
