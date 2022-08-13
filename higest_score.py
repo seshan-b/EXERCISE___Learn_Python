@@ -15,5 +15,6 @@ print(student_scores)
 highest_score = 0
 
 for score in student_scores:
-      if score > highest_score:
+    if score > highest_score:
           highest_score = score 
+    print(highest_score)
