@@ -7,3 +7,4 @@ print(total_1)
 
 
 total_2 = 0
+for number in range(0, 101):
