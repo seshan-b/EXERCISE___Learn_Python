@@ -25,3 +25,4 @@ print(number_of_students)
 
 # Get average height
 average_height = round(total_height / number_of_students)
+print(average_height)
