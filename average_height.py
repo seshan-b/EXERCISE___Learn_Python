@@ -18,3 +18,4 @@ print(total_height)
 
 # Get number of students
 number_of_students = 0
+for student in student_heights:
