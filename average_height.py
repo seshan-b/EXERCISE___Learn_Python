@@ -10,3 +10,4 @@ print(student_heights)
 
 
 # Sum up all the heights
+total_height = 0
