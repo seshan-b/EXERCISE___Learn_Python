@@ -19,3 +19,7 @@ user_letters= int(input("How many letters would you like in your password?\n"))
 user_symbols = int(input(f"How many symbols would you like?\n"))
 
 user_numbers = int(input(f"How many numbers would you like?\n"))
+
+
+#Easy Level - Order not randomised:
+#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
