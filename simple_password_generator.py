@@ -1,4 +1,5 @@
 import random
+from ssl import _PasswordType
 
 
 # Letters
@@ -35,3 +36,11 @@ for char in range(1, user_letters + 1):
      # print(random_character)
      password += random_character
      print(password)
+     
+    
+# For numbers 
+for char in range(1, user_numbers + 1):
+    random_character = random.choice(numbers)
+    #print(random_character)
+    password += random_character
+    print(Password)
