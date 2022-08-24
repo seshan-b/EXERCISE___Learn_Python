@@ -27,3 +27,11 @@ user_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Initialize 
 password =  ""
+
+
+# Loop letters
+for char in range(1, user_letters + 1):
+     random_character = random.choice(letters)
+     # print(random_character)
+     password += random_character
+     print(password)
