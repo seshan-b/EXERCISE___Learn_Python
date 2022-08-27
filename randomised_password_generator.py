@@ -40,3 +40,11 @@ for each_char in range(1, user_numbers + 1):
     #print(random_character)
     password_list += random_character
     print(password_list)
+    
+    
+# For symbols
+for each_char in range(1, user_symbols + 1):
+    random_character = random.choice(symbols)
+    #print(random_character)
+    password_list += random_character
+    print(password_list)
