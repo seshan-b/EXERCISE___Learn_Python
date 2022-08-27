@@ -54,3 +54,5 @@ generated_password = ""
 for char in password_list:
     generated_password += char
     print(generated_password)
+
+print(f" Generated Password: {generated_password}")
