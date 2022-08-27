@@ -20,3 +20,7 @@ user_letters= int(input("How many letters would you like in your password?\n"))
 user_symbols = int(input(f"How many symbols would you like?\n"))
 
 user_numbers = int(input(f"How many numbers would you like?\n"))
+
+
+# Initialize list
+password_list =  []
