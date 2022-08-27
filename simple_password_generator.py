@@ -31,7 +31,7 @@ password =  ""
 
 
 # Loop letters
-for char in range(1, user_letters + 1):
+for each_char in range(1, user_letters + 1):
      random_character = random.choice(letters)
      # print(random_character)
      password += random_character
@@ -39,7 +39,7 @@ for char in range(1, user_letters + 1):
      
     
 # For numbers 
-for char in range(1, user_numbers + 1):
+for each_char in range(1, user_numbers + 1):
     random_character = random.choice(numbers)
     #print(random_character)
     password += random_character
@@ -47,7 +47,7 @@ for char in range(1, user_numbers + 1):
     
 
 # For symbols
-for char in range(1, user_symbols + 1):
+for each_char in range(1, user_symbols + 1):
     random_character = random.choice(symbols)
     #print(random_character)
     password += random_character
