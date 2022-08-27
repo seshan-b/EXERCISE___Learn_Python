@@ -1,5 +1,5 @@
 import random
-from ssl import _PasswordType
+
 
 
 # Letters
@@ -54,4 +54,4 @@ for char in range(1, user_symbols + 1):
     print(password)
     
     
-print(f" Generated Password: {password}")
+print(f"Generated Password: {password}")
