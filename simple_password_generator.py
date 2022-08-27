@@ -52,3 +52,6 @@ for char in range(1, user_symbols + 1):
     #print(random_character)
     password += random_character
     print(password)
+    
+    
+print(f" Generated Password: {password}")
