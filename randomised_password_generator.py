@@ -48,3 +48,5 @@ for each_char in range(1, user_symbols + 1):
     #print(random_character)
     password_list += random_character
     print(password_list)
+    
+# Generate the password assign to for loop to append it and convert to string
