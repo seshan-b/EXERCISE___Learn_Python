@@ -5,6 +5,7 @@
 def my_function():
     print("Hello")
     num_char = len("Hello")
+    print("Bye")
     return num_char
     
 
