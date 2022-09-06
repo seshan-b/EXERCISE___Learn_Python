@@ -19,3 +19,8 @@
 # Pass a function to an argument
 
 print("Hello")
+
+
+def foo():
+    print("Hello")
+    
