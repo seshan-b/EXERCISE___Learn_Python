@@ -24,3 +24,4 @@ print("Hello")
 def foo():
     print("Hello")
     
+foo()
