@@ -18,10 +18,12 @@
 
 # Pass a function to an argument
 
-print("Hello")
+def wage(w_hours):
+    return w_hours * 25
+
+def with_bonus(w_hours):
+    return wage(w_hours) + 50
 
 
-def foo():
-    print("Hello")
-    
-foo()
+print(wage(8))
+print(with_bonus(8))
