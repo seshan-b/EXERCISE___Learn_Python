@@ -27,3 +27,15 @@ def with_bonus(w_hours):
 
 print(wage(8))
 print(with_bonus(8))
+
+
+
+
+def greet_all(people):
+    for person in people:
+        print("Hello" + person)
+
+
+friends = ["Bob", "Josh", "Austin"]
+
+greet_all(friends)
