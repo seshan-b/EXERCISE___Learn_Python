@@ -64,6 +64,3 @@ a = 10
 print(id(a))
 update(a)
 print("a ", a)
-
-
-# test
