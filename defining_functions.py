@@ -15,7 +15,6 @@
 # print(my_function())
 
 
-
 # Pass a function to an argument
 
 def wage(w_hours):
