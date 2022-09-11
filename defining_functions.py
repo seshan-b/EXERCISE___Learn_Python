@@ -17,6 +17,8 @@
 
 # Pass a function to an argument
 
+
+
 def wage(w_hours):
     return w_hours * 25
 
