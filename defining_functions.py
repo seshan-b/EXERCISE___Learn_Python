@@ -28,6 +28,8 @@ def with_bonus(w_hours):
 print(wage(8))
 print(with_bonus(8))
 
+print("---------------------------------------------------------------------------------------")
+
 
 
 def greet(person, first_time = False):
@@ -46,4 +48,19 @@ friends = ["Bob", "Josh", "Austin"]
 greet_all(friends)
 
 
+print("---------------------------------------------------------------------------------------")
 
+
+
+def update (x):
+    
+    print(id(x))
+    x = 8
+    print(id(x))
+    print("x ", x)
+
+
+a = 10
+print(id(a))
+update(a)
+print("a ", a)
