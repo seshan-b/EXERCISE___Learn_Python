@@ -1,3 +1,4 @@
+from calendar import c
 from datetime import datetime,timedelta 
 
 # adding 2 sting. When doing math make sure you wrap them in the right data types
@@ -21,3 +22,4 @@ today = datetime.now()
 print(f"Today's Date is: {str(today)}")
 
 # Time Delta is used to define a period of time
+
