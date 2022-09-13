@@ -26,3 +26,9 @@ one_day = timedelta(days = 1)
 yesterday = today - one_day
 
 print(f"Yesterday was {yesterday}")
+
+
+# Input date
+today = datetime.now()
+
+print(f"Tpday {today}")
