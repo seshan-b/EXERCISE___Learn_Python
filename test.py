@@ -22,6 +22,7 @@ today = datetime.now()
 print(f"Today's Date is: {str(today)}")
 
 # Time Delta is used to define a period of time
+one_day = timedelta(days = 1)
+yesterday = today - one_day
 
-
-
+print(f"Yesterday was {yesterday}")
