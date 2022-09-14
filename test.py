@@ -31,4 +31,13 @@ print(f"Yesterday was {yesterday}")
 # Input date
 today = datetime.now()
 
-print(f"Tpday {today}")
+print(f"Today {today}")
+
+print("--------------------------------------------------------")
+
+
+input_text = input("hello world")
+
+get_text = input_text[1]
+
+print(f"{get_text}")
