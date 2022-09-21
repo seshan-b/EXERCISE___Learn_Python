@@ -1,7 +1,12 @@
+import random
+
+from hangman_random_words import word_list
 
 
 
 #TODO-1: - Create an empty List called display.gp
+
+chosen_word = random.choice(word_list)
 
 
 
