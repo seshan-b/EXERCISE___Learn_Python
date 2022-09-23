@@ -11,6 +11,8 @@ print(logo)
 # Get random word
 chosen_word = random.choice(word_list)
 
+# To check the chosen word we can comment this.
+print(chosen_word)
 
 # Get user input to get chosen word
 guess = input("Guess a letter \n").lower()
@@ -22,7 +24,7 @@ for letter in chosen_word:
     if letter == guess:
         print("Yes correct")
     else:
-        print("wrong")
+        print("Wrong")
     
 
 
