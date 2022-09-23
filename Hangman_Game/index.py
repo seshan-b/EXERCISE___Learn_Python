@@ -17,6 +17,15 @@ guess = input("Guess a letter \n").lower()
 
 #TODO-2: - Loop through each position in the chosen_word;gp
 
+for letter in chosen_word:
+    
+    if letter == guess:
+        print("Yes correct")
+    else:
+        print("wrong")
+    
+
+
 
 
 
