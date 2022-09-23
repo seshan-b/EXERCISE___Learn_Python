@@ -10,7 +10,6 @@ chosen_word = random.choice(word_list)
 
 
 
-
 #TODO-2: - Loop through each position in the chosen_word;gp
 
 
