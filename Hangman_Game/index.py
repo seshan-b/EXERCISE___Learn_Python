@@ -11,6 +11,11 @@ print(logo)
 # Get random word
 chosen_word = random.choice(word_list)
 
+display = []
+word_length = len(chosen_word)
+
+
+
 # To check the chosen word we can comment this.
 print(chosen_word)
 
