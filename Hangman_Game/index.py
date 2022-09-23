@@ -21,7 +21,7 @@ word_length = len(chosen_word)
 # Get complete set of words
 for letter in range(word_length):
     display += "_"
-    
+print(display)   
 
 
 
