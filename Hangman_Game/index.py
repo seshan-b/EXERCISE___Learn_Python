@@ -4,14 +4,14 @@ from hangman_random_words import word_list, logo
 
 
 
-#TODO-1: - Create an empty List called display.gp
 
+# Print Logo
 print(logo)
 
 # Get random word
 chosen_word = random.choice(word_list)
 
-
+# Initial display set to 0
 display = []
 
 
