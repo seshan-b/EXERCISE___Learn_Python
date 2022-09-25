@@ -8,16 +8,13 @@ from hangman_random_words import word_list, logo
 # Print Logo
 print(logo)
 
+### Generate a Random Word.
 # Get random word
 chosen_word = random.choice(word_list)
-
 # Initial display set to 0
 display = []
-
-
 # Get the word length
 word_length = len(chosen_word)
-
 # Get complete set of words
 for letter in range(word_length):
     display += "_"
