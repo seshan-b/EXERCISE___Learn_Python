@@ -15,12 +15,13 @@ chosen_word = random.choice(word_list)
 display = []
 # Get the word length
 word_length = len(chosen_word)
+
+
+### Generate as many blanks as letters in a word.
 # Get complete set of words
 for letter in range(word_length):
     display += "_"
 print(display)   
-
-
 
 # To check the chosen word we can comment this.
 print(chosen_word)
