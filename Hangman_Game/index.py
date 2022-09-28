@@ -23,13 +23,12 @@ for letter in range(word_length):
     display += "_"
 print(display)   
 
-# To check the chosen word we can comment this.
+# To check the chosen word we can comment this.gp
 print(chosen_word)
 
+### Ask the user to guess a letter.
 # Get user input to get chosen word
 guess = input("Guess a letter \n").lower()
-
-#TODO-2: - Loop through each position in the chosen_word;gp
 
 # Loop through the chosen word
 for letter in chosen_word:
