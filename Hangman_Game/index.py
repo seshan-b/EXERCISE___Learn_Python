@@ -30,6 +30,10 @@ print(chosen_word)
 # Get user input to get chosen word
 guess = input("Guess a letter \n").lower()
 
+
+# Keep track of end game
+end_of_game = False
+
 # Loop through the chosen word
 for letter in chosen_word:
     
