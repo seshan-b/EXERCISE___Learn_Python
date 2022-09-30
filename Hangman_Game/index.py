@@ -34,14 +34,16 @@ guess = input("Guess a letter \n").lower()
 # Keep track of end game
 end_of_game = False
 
-# Loop through the chosen word
-for letter in chosen_word:
-    
-    # Check to see if letter is equal to guess.
-    if letter == guess:
-        print("Yes correct")
-    else:
-        print("Wrong")
+while not end_of_game:
+
+    # Loop through the chosen word
+    for letter in chosen_word:
+        
+        # Check to see if letter is equal to guess.
+        # if letter == guess:
+        #     print("Yes correct")
+        # else:
+        #     print("Wrong")
     
 
 
