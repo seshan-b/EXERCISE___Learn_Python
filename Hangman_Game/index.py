@@ -8,6 +8,8 @@ from hangman_random_words import word_list, logo
 # Print Logo
 print(logo)
 
+
+
 ### Generate a Random Word.
 # Get random word
 chosen_word = random.choice(word_list)
@@ -15,7 +17,6 @@ chosen_word = random.choice(word_list)
 display = []
 # Get the word length
 word_length = len(chosen_word)
-
 
 ### Generate as many blanks as letters in a word.
 # Get complete set of words
@@ -41,9 +42,21 @@ while not end_of_game:
         letter = chosen_word[position]
         if letter == guess:
             display[position] = letter
+            
+            
+    if guess not in chosen_word:
+      print(f"You have guess the word: {guess} Not in particular word You loose a life.")
+      lives -= 1
+      if lives == 0:
+        end_of_game = True
+        print("You Loose")            
+            
     
     print(display)
-
-
+    # Check to see if "_" is not in display var
+    if "_" not in display:
+        end_of_game = True
+        print("You win")
+    
 
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
