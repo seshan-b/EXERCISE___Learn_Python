@@ -62,4 +62,5 @@ while not end_of_game:
         print("You win")
     
     
+    # Keeping track of the stages and lives
     print(stages[lives])
