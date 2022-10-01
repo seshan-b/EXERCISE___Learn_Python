@@ -1,6 +1,7 @@
 import random
 
 from hangman_random_words import word_list, logo
+from graphic import stages
 
 
 
@@ -8,7 +9,7 @@ from hangman_random_words import word_list, logo
 # Print Logo
 print(logo)
 
-
+lives = 6
 
 ### Generate a Random Word.
 # Get random word
@@ -27,15 +28,17 @@ print(display)
 # To check the chosen word we can comment this.gp
 print(chosen_word)
 
-### Ask the user to guess a letter.
-# Get user input to get chosen word
-guess = input("Guess a letter \n").lower()
+
 
 
 # Keep track of end game
 end_of_game = False
 
 while not end_of_game:
+    
+    ### Ask the user to guess a letter.
+    # Get user input to get chosen word
+    guess = input("Guess a letter \n").lower()
 
     # Loop through the chosen word length
     for position in range(word_length):
@@ -58,5 +61,7 @@ while not end_of_game:
         end_of_game = True
         print("You win")
     
+    
+    print(stages[lives])
 
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
