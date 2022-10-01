@@ -63,5 +63,3 @@ while not end_of_game:
     
     
     print(stages[lives])
-
-#TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
