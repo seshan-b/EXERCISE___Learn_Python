@@ -36,17 +36,13 @@ end_of_game = False
 
 while not end_of_game:
 
-    # Loop through the chosen word
-    for letter in chosen_word:
-        
-        # Check to see if letter is equal to guess.
-        # if letter == guess:
-        #     print("Yes correct")
-        # else:
-        #     print("Wrong")
+    # Loop through the chosen word length
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
     
-
-
+    print(display)
 
 
 
