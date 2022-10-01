@@ -38,7 +38,7 @@ while not end_of_game:
     
     ### Ask the user to guess a letter.
     # Get user input to get chosen word
-    guess = input("Guess a letter \n").lower()
+    #guess = input("Guess a letter \n").lower()
 
     # Loop through the chosen word length
     for position in range(word_length):
