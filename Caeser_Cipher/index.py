@@ -14,4 +14,5 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 def caeser(start_text, shift_amount, cipher_direction):
     end_text = ""
     for char in start_text:
-        if char in alphabet:     
+        if char in alphabet:
+            position = alphabet.index(char)
