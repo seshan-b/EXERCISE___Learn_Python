@@ -18,4 +18,5 @@ def caeser(start_text, shift_amount, cipher_direction):
             position = alphabet.index(char)
             if cipher_direction == "encode":
                 new_position = position + shift_amount 
-                end_text += alphabet[new_position]              
+                end_text += alphabet[new_position]
+            elif cipher_direction == "decode":           
