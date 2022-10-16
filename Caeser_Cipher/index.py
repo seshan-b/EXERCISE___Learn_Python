@@ -22,4 +22,5 @@ def caeser(start_text, shift_amount, cipher_direction):
             elif cipher_direction == "decode":
                  new_position = position - shift_amount
                  end_text += alphabet[new_position]
-            else:
+        else:
+            end_text += char
