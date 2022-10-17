@@ -24,4 +24,7 @@ def caeser(start_text, shift_amount, cipher_direction):
                  end_text += alphabet[new_position]
         else:
             end_text += char
-        print(f"The {cipher_direction} is  {end_text}")  
+        print(f"The {cipher_direction} is  {end_text}")
+
+
+should_continue = True
