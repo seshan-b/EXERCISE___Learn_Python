@@ -28,3 +28,4 @@ def caeser(start_text, shift_amount, cipher_direction):
 
 
 should_continue = True
+while should_continue:
