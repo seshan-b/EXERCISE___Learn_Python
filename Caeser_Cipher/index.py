@@ -45,8 +45,7 @@ while should_continue:
     caeser(start_text=text, shift_amount=shift, cipher_direction=direction)
 
     # Ask to continue
-    restart = input(
-        "Type 'yes' if you want to go again. Otherwise type 'no'.\n")
-
-    should_continue = False
-    print("Goodbye")
+    restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
+    if restart == "no":
+        should_continue = False
+        print("Goodbye")
