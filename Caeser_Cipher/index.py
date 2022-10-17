@@ -40,3 +40,4 @@ while should_continue:
     restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     
     should_continue = False
+    print("Goodbye")
