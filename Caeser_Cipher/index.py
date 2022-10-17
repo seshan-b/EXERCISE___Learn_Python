@@ -38,7 +38,6 @@ while should_continue:
     shift = int(input("Type the shift number:\n"))
 
     # The Modulus will get the remainder of each index shift position.
-
     shift = shift % 26
 
     # Calling the function
