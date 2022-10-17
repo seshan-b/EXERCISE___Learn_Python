@@ -16,6 +16,7 @@ def caeser(start_text, shift_amount, cipher_direction):
     for char in start_text:
         if char in alphabet:
             position = alphabet.index(char)
+            
             if cipher_direction == "encode":
                 new_position = position + shift_amount 
                 end_text += alphabet[new_position]
@@ -30,7 +31,7 @@ def caeser(start_text, shift_amount, cipher_direction):
 should_continue = True
 while should_continue:
     
-    
+    # Ask questions
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
@@ -40,6 +41,8 @@ while should_continue:
     # Calling the function
     caeser(start_text=text, shift_amount=shift, cipher_direction=direction)
     
+    
+    # Ask to continue
     restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     
     should_continue = False
