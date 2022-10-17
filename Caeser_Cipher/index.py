@@ -37,15 +37,16 @@ while should_continue:
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
 
-    # The Modulus will get the remainder of each index shift position. 
-    
+    # The Modulus will get the remainder of each index shift position.
+
     shift = shift % 26
 
     # Calling the function
     caeser(start_text=text, shift_amount=shift, cipher_direction=direction)
 
     # Ask to continue
-    restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
+    restart = input(
+        "Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     if restart == "no":
         should_continue = False
         print("Goodbye")
