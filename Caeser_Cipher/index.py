@@ -10,7 +10,7 @@ print(start_logo)
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 
-
+# Function
 def caeser(start_text, shift_amount, cipher_direction):
     end_text = ""
     for char in start_text:
@@ -34,6 +34,7 @@ while should_continue:
     shift = int(input("Type the shift number:\n"))
     
     shift = shift % 26
+    
     
     caeser(start_text=text, shift_amount=shift, cipher_direction=direction)
     
