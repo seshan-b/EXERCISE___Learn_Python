@@ -5,3 +5,6 @@ student_scores = {
     "Draco": 74,
     "Neville": 62
 }
+
+
+# TODO-1: Create an empty dictionary called student_grades.
