@@ -8,3 +8,4 @@ student_scores = {
 
 
 # TODO-1: Create an empty dictionary called student_grades.
+student_grades = {}
