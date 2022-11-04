@@ -20,3 +20,4 @@ for student in student_scores:
         student_grades[student] = "Exceeds Expectations"
     elif score > 70:
         student_grades[student] = "Acceptable"
+    else:
