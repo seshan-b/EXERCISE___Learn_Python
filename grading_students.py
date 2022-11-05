@@ -21,3 +21,4 @@ for student in student_scores:
     elif score > 70:
         student_grades[student] = "Acceptable"
     else:
+        student_grades[student] = "Fail"
