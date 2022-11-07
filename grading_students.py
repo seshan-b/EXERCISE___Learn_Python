@@ -22,7 +22,7 @@ for student in student_scores:
         student_grades[student] = "Acceptable"
     else:
         student_grades[student] = "Fail"
-        
+
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
