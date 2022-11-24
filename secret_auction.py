@@ -20,3 +20,6 @@ logo = '''
 
 
 print(logo)
+
+
+bids = {}
