@@ -23,3 +23,4 @@ print(logo)
 
 
 bids = {}
+bidding_finished = False
