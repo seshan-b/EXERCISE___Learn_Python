@@ -31,4 +31,5 @@ def find_highest_bidder(bidding_record):
     for bidder in bidding_record:
         bidding_amount = bidding_record[bidder]
         if bidding_amount > highest_bid:
+            highest_bid = bidding_amount
         
