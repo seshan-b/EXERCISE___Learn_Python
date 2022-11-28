@@ -33,4 +33,5 @@ def find_highest_bidder(bidding_record):
         if bidding_amount > highest_bid:
             highest_bid = bidding_amount
             winner = bidder
+    print(f"The winner is {winner} with a bid of ${highest_bid}")
         
