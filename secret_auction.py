@@ -37,4 +37,7 @@ def find_highest_bidder(bidding_record):
         
         
 while not bidding_finished:
-    
+    # Get inputs
+    name = input("What is your name?")
+
+    price = input("What is your bid?")
