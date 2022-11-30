@@ -44,3 +44,4 @@ while not bidding_finished:
     
     bids[name] = float(price)
     should_continue = input("Are there any other bidders? Type 'Yes' or 'No'")
+    if should_continue == "no":
