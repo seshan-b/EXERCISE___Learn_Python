@@ -21,8 +21,10 @@ logo = '''
 
 print(logo)
 
-
+# Start with empty bid
 bids = {}
+
+# Track bid
 bidding_finished = False
 
 
