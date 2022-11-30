@@ -1,6 +1,5 @@
 import os
-from graphic import logo
-# Clearing the Screen
+from graphic import logo 
 os.system('clear')
 
 
