@@ -1,5 +1,6 @@
+# pylint: disable=import-error
 import os
-from graphic import logo 
+from graphic import logo
 os.system('clear')
 
 
