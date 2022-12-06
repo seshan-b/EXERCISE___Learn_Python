@@ -7,3 +7,14 @@
 
 
 # Divide
+
+
+
+
+# Dictionary
+operations = {
+    "+": add,
+    "-": subtract,
+    "/": divide,
+    "*": multiply
+}
