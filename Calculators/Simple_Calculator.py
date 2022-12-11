@@ -26,3 +26,7 @@ operations = {
     "/": divide,
     "*": multiply
 }
+
+
+# Calculate function
+def caluclator():
