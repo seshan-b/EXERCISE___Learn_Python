@@ -30,3 +30,5 @@ operations = {
 
 # Calculate function
 def caluclator():
+  # Ask User
+  
