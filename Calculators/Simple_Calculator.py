@@ -30,5 +30,7 @@ operations = {
 
 # Calculate function
 def caluclator():
-  # Ask User
   
+  
+  # Ask User
+  num1 = float(input("What is the 1st Number?"))
