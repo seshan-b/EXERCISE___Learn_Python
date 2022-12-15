@@ -41,3 +41,5 @@ def caluclator():
     num1 = float(input("What is the 1st Number?"))
 
     for symbol in operations:
+        print(symbol)
+    should_continue = True
