@@ -43,3 +43,7 @@ def caluclator():
     for symbol in operations:
         print(symbol)
     should_continue = True
+
+
+
+   while should_continue:
