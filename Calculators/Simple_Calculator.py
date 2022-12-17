@@ -47,3 +47,8 @@ def caluclator():
 
 
    while should_continue:
+     
+     
+
+# Call it
+caluclator()
