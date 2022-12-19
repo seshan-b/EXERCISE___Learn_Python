@@ -47,6 +47,8 @@ def caluclator():
 
 
    while should_continue:
+            operation_symbol = input("Pick a operation")
+        num2 = float(input("What is the next Number?"))
      
      
 
