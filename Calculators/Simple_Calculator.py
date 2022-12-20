@@ -50,6 +50,8 @@ def caluclator():
         operation_symbol = input("Pick a operation")
         num2 = float(input("What is the next Number?"))
          # Calculate
+        calculation_function = operations[operation_symbol]
+        answer = calculation_function(num1, num2)
      
      
 
