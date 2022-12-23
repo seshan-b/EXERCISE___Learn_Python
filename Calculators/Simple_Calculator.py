@@ -52,6 +52,9 @@ def caluclator():
          # Calculate
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
+        
+        
+        print(f"{num1} {operation_symbol} {num2} = {answer}")
      
      
 
