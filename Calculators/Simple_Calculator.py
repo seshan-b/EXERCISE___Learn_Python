@@ -58,6 +58,7 @@ def caluclator():
         
         if input(f"Type 'y' to continue calculating with {answer}:") == "y":
            num1 = answer
+        else:
      
      
 
