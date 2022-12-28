@@ -29,3 +29,6 @@ def calculator():
           
            if input(f"Type 'y' to continue calculating with {num1}:") != "y":
             break
+          
+          
+          calculator()
