@@ -8,6 +8,7 @@ from hangman_random_words import word_list, logo
 # Print the logo
 print(logo)
 
+
 # Initialize the lives variable to 6
 lives = 6
 
