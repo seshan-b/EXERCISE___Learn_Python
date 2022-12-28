@@ -15,3 +15,5 @@ def calculator():
             num1 += num2
                     elif operation_symbol == "-":
             num1 -= num2
+                elif operation_symbol == "*":
+            num1 *= num2
