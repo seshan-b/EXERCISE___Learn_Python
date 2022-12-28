@@ -9,3 +9,5 @@ def calculator():
           operation_symbol, num2_str = input_str.split()
           num2 = float(num2_str)
         except ValueError:
+          print("Invalid input. Please try again.")
+        continue
