@@ -1,3 +1,7 @@
+import main
+
+hangman_game = main
+
 def test_hangman_game():
     # Create a mock input function to simulate user input
     def mock_input(prompt):
