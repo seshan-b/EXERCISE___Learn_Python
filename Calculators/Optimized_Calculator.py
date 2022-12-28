@@ -24,3 +24,8 @@ def calculator():
                   else:
             print("Invalid operation. Please try again.")
             continue
+          print(f"{num1} {operation_symbol} {num2} = {num1}")
+          
+          
+           if input(f"Type 'y' to continue calculating with {num1}:") != "y":
+            break
