@@ -11,3 +11,7 @@ def calculator():
         except ValueError:
           print("Invalid input. Please try again.")
         continue
+              if operation_symbol == "+":
+            num1 += num2
+                    elif operation_symbol == "-":
+            num1 -= num2
