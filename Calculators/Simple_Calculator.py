@@ -60,6 +60,8 @@ def caluclator():
            num1 = answer
         else:
           should_continue = False
+          
+          caluclator()
      
      
 
