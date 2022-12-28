@@ -41,3 +41,4 @@ def test_hangman_game():
         'You have guess the word: d Not in particular word You loose a life.',  # Incorrect guess
         'You Loose',  # Game over
     ]
+
