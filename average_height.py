@@ -9,30 +9,26 @@
 # Calculate the average height by dividing total_height by number_of_students and rounding the result.
 # Print the average height.
 
-
-# Get input from user
+# Get input from user and split it into a list of heights
 student_heights = input("Input a list of student heights ").split()
 
-# Loop through the input heights
+# Convert each height from a string to an integer
 for n in range(0, len(student_heights)):
     student_heights[n] = int(student_heights[n])
 print(student_heights)
 
-
-# Sum up all the heights
+# Initialize total_height to 0 and sum up all the heights
 total_height = 0
 for height in student_heights:
     total_height += height
 print(total_height)
 
-
-# Get number of students
+# Initialize number_of_students to 0 and count the number of students
 number_of_students = 0
 for student in student_heights:
     number_of_students += 1
 print(number_of_students)
 
-
-# Get average height
+# Calculate the average height and round it
 average_height = round(total_height / number_of_students)
 print(average_height)
