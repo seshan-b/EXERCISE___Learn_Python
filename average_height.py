@@ -1,3 +1,13 @@
+### Pseudo Code ###
+# Get user input for a list of student heights and split the input into individual heights.
+# Loop through each height and convert it to an integer.
+# Print the list of student heights.
+# Initialize total_height to 0 and loop through the list to sum up all the heights.
+# Print the total height.
+# Initialize number_of_students to 0 and loop through the list to count the number of students.
+# Print the number of students.
+# Calculate the average height by dividing total_height by number_of_students and rounding the result.
+# Print the average height.
 
 
 # Get input from user
