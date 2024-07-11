@@ -1,3 +1,17 @@
+### Pseudo Code ###
+# Import the random module.
+# Define lists of letters, numbers, and symbols.
+# Print a welcome message.
+# Get user input for the number of letters, symbols, and numbers they want in their password.
+# Initialize an empty list password_list to hold the password characters.
+# For each letter requested, randomly select a letter from the letters list and add it to password_list.
+# For each number requested, randomly select a number from the numbers list and add it to password_list.
+# For each symbol requested, randomly select a symbol from the symbols list and add it to password_list.
+# Initialize an empty string generated_password.
+# For each character in password_list, append it to generated_password.
+# Print the generated password.
+
+
 import random
 
 
