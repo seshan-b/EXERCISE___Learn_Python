@@ -1,3 +1,12 @@
+
+### Pseudo Code ###
+# Get user input for a name.
+# Split the input into first name and last name.
+# Assign the first part of the split input to first_name.
+# Assign the second part of the split input to last_name.
+# Print the first name and last name with the first letter of each capitalized.
+
+
 # Get user input
 user_input = input("What is your name? ")
 

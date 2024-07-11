@@ -1,4 +1,4 @@
-## Pseudo Code
+### Pseudo Code ###
 # Get user input for a number.
 # Convert the user input to an integer.
 # Assign the integer to a variable.
