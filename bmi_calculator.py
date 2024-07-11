@@ -1,16 +1,23 @@
 
+### Pseudo Code ###
+# Get user input for height in meters.
+# Get user input for weight in kilograms.
+# Convert the height input to a float.
+# Convert the weight input to an integer.
+# Calculate the BMI using the formula: BMI = weight / (height^2).
+# Round the BMI to the nearest whole number.
+# Print the rounded BMI.
 
-# Get inputs
-input_height = input("enter your height in m: ")
-input_weight = input("enter your weight in kg: ")
+# Get user inputs for height and weight
+input_height = input("Enter your height in m: ")
+input_weight = input("Enter your weight in kg: ")
 
-# Assign variable and type cast
-height = float(input_height) 
+# Convert the height input to a float and the weight input to an integer
+height = float(input_height)
 weight = int(input_weight)
 
-# Calculate
+# Calculate the BMI using the formula: BMI = weight / (height^2)
 bmi = weight / height ** 2
 
-
-# Print
-print(f" Your BMI is {str(round(bmi))}")
+# Print the rounded BMI
+print(f"Your BMI is {str(round(bmi))}")
